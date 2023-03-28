@@ -1,4 +1,3 @@
--- This file can be loaded by calling `lua require('plugins')` from your init.vim
 
 -- Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
@@ -46,20 +45,15 @@ return require('packer').startup(function(use)
             require('gitsigns').setup()
         end
     }
-    use {
-        'numToStr/Comment.nvim',
-        config = function()
-            require('Comment').setup({ toggler = { line = '<leader>/', block = '<leader>/' } })
-        end
-    }
+    use 'JoosepAlviste/nvim-ts-context-commentstring'
     use { "akinsho/toggleterm.nvim", tag = '*', config = function()
         require("toggleterm").setup()
     end }
     use { "Pocco81/auto-save.nvim",
-    config = function()
-        require("auto-save").setup()
-    end
-}
+        config = function()
+            require("auto-save").setup()
+        end
+    }
 
     use "nvim-tree/nvim-tree.lua"
     use { 'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
@@ -70,4 +64,9 @@ return require('packer').startup(function(use)
     })
     use 'nacro90/numb.nvim'
     use 'HiPhish/nvim-ts-rainbow2'
+    use "terrortylor/nvim-comment"
+    use {
+	"windwp/nvim-autopairs",
+    config = function() require("nvim-autopairs").setup {} end
+}
 end)

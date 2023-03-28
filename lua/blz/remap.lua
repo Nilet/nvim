@@ -1,5 +1,4 @@
 vim.g.mapleader = " "
-
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>w", vim.cmd.w)
 vim.keymap.set("n", "<leader>q", vim.cmd.q)
@@ -51,3 +50,6 @@ vim.keymap.set("n", "<leader>bn", "<cmd>BufferLineCycleNext<CR>")
 vim.keymap.set("n", "<leader>bb", "<cmd>BufferLineCyclePrev<CR>")
 vim.keymap.set("n", "<leader>bj", "<cmd>BufferLinePick<CR>")
 vim.keymap.set("n", "<leader>bc", "<cmd>bw<CR>")
+
+vim.keymap.set("n", "<leader>/", "<cmd>CommentToggle<CR>")
+vim.keymap.set("v", "<leader>/", "<cmd>'<,'>CommentToggle<CR>")

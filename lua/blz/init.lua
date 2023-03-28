@@ -12,4 +12,3 @@ function toggle_nvim_tree()
 end
 
 vim.api.nvim_command('autocmd BufEnter * lua toggle_nvim_tree()')
-
