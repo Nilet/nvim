@@ -69,5 +69,5 @@ return require('packer').startup(function(use)
         run = function() vim.fn["mkdp#util#install"]() end,
     })
     use 'nacro90/numb.nvim'
-
+    use 'HiPhish/nvim-ts-rainbow2'
 end)
