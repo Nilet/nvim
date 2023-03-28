@@ -56,13 +56,18 @@ return require('packer').startup(function(use)
         require("toggleterm").setup()
     end }
     use { "Pocco81/auto-save.nvim",
-        config = function()
-            require("auto-save").setup()
-        end
-    }
-    -- Unless you are still migrating, remove the deprecated commands from v1.x
+    config = function()
+        require("auto-save").setup()
+    end
+}
 
     use "nvim-tree/nvim-tree.lua"
     use { 'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
     use "folke/neodev.nvim"
+    use({
+        "iamcco/markdown-preview.nvim",
+        run = function() vim.fn["mkdp#util#install"]() end,
+    })
+    use 'nacro90/numb.nvim'
+
 end)
