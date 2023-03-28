@@ -41,7 +41,7 @@ vim.keymap.set("n", "<C-k>", "<C-W>k");
 vim.keymap.set("n", "<C-l>", "<C-W>l");
 
 vim.keymap.set("n", "<M-1>", "<cmd>ToggleTerm direction=horizontal<CR>")
-vim.keymap.set("n", "<M-2>", "<cmd>ToggleTerm direction=vertical<CR>")
+vim.keymap.set("n", "<M-2>", "<cmd>ToggleTerm direction=vertical size=60<CR>")
 vim.keymap.set("n", "<M-3>", "<cmd>ToggleTerm direction=float<CR>")
 
 vim.keymap.set("n", "<leader>e", "<cmd>NvimTreeToggle<CR>")
