@@ -47,9 +47,9 @@ vim.keymap.set("n", "<M-3>", "<cmd>ToggleTerm direction=float<CR>")
 vim.keymap.set("n", "<leader>e", "<cmd>NvimTreeToggle<CR>")
 
 vim.keymap.set("n", "<leader>bn", "<cmd>BufferLineCycleNext<CR>")
-vim.keymap.set("n", "<leader>bb", "<cmd>BufferLineCyclePrev<CR>")
-vim.keymap.set("n", "<leader>bj", "<cmd>BufferLinePick<CR>")
+vim.keymap.set("n", "<leader>bb", "<cmd>bufferlinecycleprev<CR>")
+vim.keymap.set("n", "<leader>bj", "<cmd>bufferlinepick<CR>")
 vim.keymap.set("n", "<leader>bc", "<cmd>bw<CR>")
 
 vim.keymap.set("n", "<leader>/", "<cmd>CommentToggle<CR>")
-vim.keymap.set("v", "<leader>/", "<cmd>'<,'>CommentToggle<CR>")
+vim.keymap.set("v", "<leader>/", [[<esc>:execute "'<,'>CommentToggle"<cr>]])
