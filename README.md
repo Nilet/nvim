@@ -4,25 +4,31 @@
 ## Table of contents 
 1. [Installation](#installation)
 2. [Remaps](#remaps)
+    1. [General](#general)
+    2. [Visual Mode](#visual-mode)
+    3. [Normal Mode](#normal-mode)
+    5. [Telescope](#telescope)
+    6. [LSP](#lsp)
+    7. [Git](#git)
 3. [File structure](#file-structure)
 
 ## Installation 
 
 1. Install neovim (using arch btw)
-```shell
- sudo pacman -S neovim
- ```
+    ```shell
+     sudo pacman -S neovim
+     ```
 
 2. Install packer.nvim, a package manager for neovim
-```shell
-git clone --depth 1 https://github.com/wbthomason/packer.nvim\
- ~/.local/share/nvim/site/pack/packer/start/packer.nvim
-```
+    ```shell
+    git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+     ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+    ```
 
 3. Clone this repo into .config
-```shell
-git clone https://github.com/Nilet/nvim ~/.config/nvim
-```
+    ```shell
+    git clone https://github.com/Nilet/nvim ~/.config/nvim
+    ```
 4. Install packages, there are two ways of doing
     > Through the terminal without actually entering nvim (you might to run it twice)
     ```shell
