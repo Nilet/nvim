@@ -30,7 +30,7 @@
     git clone https://github.com/Nilet/nvim ~/.config/nvim
     ```
 4. Install packages, there are two ways of doing
-    > Through the terminal without actually entering nvim (you might to run it twice)
+    > Through the terminal without actually entering nvim (you might need to run it twice)
     ```shell
     nvim -c PackerSync
     ```
