@@ -6,9 +6,7 @@ vim.o.background = "dark" -- or "light" for light mode
 vim.cmd([[colorscheme gruvbox]])
 
 function toggle_nvim_tree()
-  local bufdir = vim.fn.expand('%:p:h')
-  if vim.fn.isdirectory(bufdir) == 1 then
-    vim.api.nvim_set_current_dir(bufdir)
+  if vim.fn.isdirectory(vim.fn.expand('%')) == 1 then
     vim.cmd('NvimTreeToggle')
   end
 end
