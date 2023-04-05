@@ -82,4 +82,5 @@ return require('packer').startup(function(use)
         end
     }
     use "felipec/vim-sanegx"
+    use 'eandrju/cellular-automaton.nvim'
 end)

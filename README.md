@@ -51,6 +51,7 @@
 - ```Ctrl +``` ```h```, ```j```, ```k``` or ```l``` Navigates through windows
 - ```Alt + ``` ```1``` through ```3``` Toggles terminal inside neovim
 - ```<leader>vpp``` Jumps to packer config file
+- ```<leader>fml``` Just watch it melt
 
 ### Visual mode
 - ```Alt + j``` or ```Alt + k``` moves the selected lines up and down, just like vscode
