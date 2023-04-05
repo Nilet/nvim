@@ -54,3 +54,8 @@ vim.keymap.set("n", "<leader>/", "<cmd>CommentToggle<CR>")
 vim.keymap.set("v", "<leader>/", [[<esc>:execute "'<,'>CommentToggle"<cr>]])
 
 vim.keymap.set("n", "<leader>fml", "<cmd>CellularAutomaton make_it_rain<CR>")
+
+vim.keymap.set("n", "<C-Right>", "<C-W>5<")
+vim.keymap.set("n", "<C-Up>", "<C-W>5-")
+vim.keymap.set("n", "<C-Down>", "<C-W>5+")
+vim.keymap.set("n", "<C-Left>", "<C-W>5>")
