@@ -83,4 +83,8 @@ return require('packer').startup(function(use)
     }
     use "felipec/vim-sanegx"
     use 'eandrju/cellular-automaton.nvim'
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
 end)
