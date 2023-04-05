@@ -7,9 +7,10 @@
     1. [General](#general)
     2. [Visual Mode](#visual-mode)
     3. [Normal Mode](#normal-mode)
-    5. [Telescope](#telescope)
-    6. [LSP](#lsp)
-    7. [Git](#git)
+    4. [Windows](#windows)
+    4. [Telescope](#telescope)
+    5. [LSP](#lsp)
+    6. [Git](#git)
 3. [File structure](#file-structure)
 
 ## Installation 
@@ -48,7 +49,6 @@
 - ```<leader>d``` Deletes the selected without cutting out the content
 - ```<leader><leader>``` Sources the current file to the neovim configuration
 - ```<leader>x``` Makes the current file executable
-- ```Ctrl +``` ```h```, ```j```, ```k``` or ```l``` Navigates through windows
 - ```Alt + ``` ```1``` through ```3``` Toggles terminal inside neovim
 - ```<leader>vpp``` Jumps to packer config file
 - ```<leader>fml``` Just watch it melt
@@ -69,6 +69,16 @@
 - ```<leader>bc``` Closes the current buffer
 - ```<leader>u``` Toggles undotree, extremely useful plugin
 
+### Windows
+
+- ```Ctrl + Left``` Resizes the current window to the left
+- ```Ctrl + Up``` Resizes the current window upwards
+- ```Ctrl + Down``` Resizes the current window downwards
+- ```Ctrl + Right```  Resizes the current window to the right
+- ```Ctrl + h``` Jumps to the left window
+- ```Ctrl + j``` Jumps to the upper window
+- ```Ctrl + k``` Jumps to the window below
+- ```Ctrl + l```  Jumps to the right window
 
 ### Telescope
 - ```<leader>pf``` fuzzy find files in the current project
