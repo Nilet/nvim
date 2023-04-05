@@ -3,7 +3,7 @@ require("blz.set")
 require("blz.packer")
 
 vim.o.background = "dark" -- or "light" for light mode
-vim.cmd([[colorscheme gruvbox]])
+vim.cmd([[colorscheme noctis]])
 
 function toggle_nvim_tree()
   local bufdir = vim.fn.expand('%')

@@ -87,4 +87,6 @@ return require('packer').startup(function(use)
         'nvim-lualine/lualine.nvim',
         requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
+
+    use { 'kartikp10/noctis.nvim', requires = { 'rktjmp/lush.nvim' } }
 end)
