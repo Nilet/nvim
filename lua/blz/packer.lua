@@ -75,9 +75,6 @@ return require('packer').startup(function(use)
         requires = "nvim-tree/nvim-web-devicons",
         config = function()
             require("trouble").setup {
-                -- your configuration comes here
-                -- or leave it empty to use the default settings
-                -- refer to the configuration section below
             }
         end
     }
@@ -89,4 +86,5 @@ return require('packer').startup(function(use)
     }
 
     use { 'kartikp10/noctis.nvim', requires = { 'rktjmp/lush.nvim' } }
+    use 'norcalli/nvim-colorizer.lua'
 end)
