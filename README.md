@@ -88,7 +88,7 @@
 ### LSP
 - ```<leader>f``` Formats the current file 
 - ```Ctrl + ``` ```b``` or ```n``` cycles through items to complete
-- ```Ctrl + y``` Confirms selection
+- ```Ctrl + c``` Confirms selection
 - ```gd``` Jumps to definition
 - ```K``` in visual mode displays information about the current function, or variable or whatever
 - ```<leader>vca``` Displays code actions

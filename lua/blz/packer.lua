@@ -88,4 +88,5 @@ return require('packer').startup(function(use)
     use { 'kartikp10/noctis.nvim', requires = { 'rktjmp/lush.nvim' } }
     use 'norcalli/nvim-colorizer.lua'
     use 'tpope/vim-surround'
+    use 'mattn/emmet-vim'
 end)
