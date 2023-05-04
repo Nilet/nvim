@@ -91,4 +91,5 @@ return require('packer').startup(function(use)
     use 'mattn/emmet-vim'
     use 'rebelot/kanagawa.nvim'
     use 'christoomey/vim-tmux-navigator'
+    use 'f-person/git-blame.nvim'
 end)
