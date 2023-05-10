@@ -48,7 +48,7 @@ vim.keymap.set("n", "<leader>e", "<cmd>NvimTreeToggle<CR>")
 vim.keymap.set("n", "<leader>bn", "<cmd>BufferLineCycleNext<CR>")
 vim.keymap.set("n", "<leader>bb", "<cmd>BufferLineCyclePrev<CR>")
 vim.keymap.set("n", "<leader>bj", "<cmd>BufferLinePick<CR>")
-vim.keymap.set("n", "<leader>bc", "<cmd>NvimTreeToggle<CR><cmd>bw<CR><cmd>NvimTreeToggle<CR>")
+vim.keymap.set("n", "<leader>bc", "<cmd>NvimTreeClose<CR><cmd>bw<CR><cmd>NvimTreeOpen<CR>")
 
 vim.keymap.set("n", "<leader>/", "<cmd>CommentToggle<CR>")
 vim.keymap.set("v", "<leader>/", [[<esc>:execute "'<,'>CommentToggle"<cr>]])
