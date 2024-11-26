@@ -9,6 +9,7 @@ require('bufferline').setup {
                 s = s .. n .. sym
             end
             return s
-        end
+        end,
+        segments = {"tabs", "buffers"},
     }
 }

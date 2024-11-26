@@ -1,8 +1,6 @@
 local lsp = require("lsp-zero").preset("recommended")
 
 lsp.ensure_installed({
-    'tsserver',
-    'rust_analyzer',
     'clangd',
     'pyright',
     'lua_ls'
